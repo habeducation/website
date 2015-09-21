@@ -27,7 +27,7 @@
   display: none;
 }
 #cssmenu {
-  font-family: Montserrat, sans-serif;
+  font-family: sans-serif;
   background: #333333;
 }
 #cssmenu > ul > li {
@@ -131,7 +131,8 @@
   font-size: 12px;
   text-decoration: none;
   color: #dddddd;
-  font-weight: 400;
+  font-weight: bold;
+  text-transform: uppercase;
   background: #333333;
 }
 #cssmenu ul ul li:last-child > a,

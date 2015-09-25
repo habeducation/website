@@ -64,8 +64,8 @@ descriptions:
 social:
   - name: Twitter
     icon: twitter
-    username: "@HighBalloonMO"
-    url: https://twitter.com/HighBalloonMO
+    username: "@BalloonEDU"
+    url: https://twitter.com/BalloonEDU
     desc: Follow me on Twitter
     share_url: http://twitter.com/share
     share_title: ?text=
@@ -73,7 +73,7 @@ social:
 
   - name: Facebook
     icon: facebook
-    username: thebencentra
+    username: habgroup
     url: 
     desc: Friend me on Facebook
     share_url: //www.facebook.com/sharer.php

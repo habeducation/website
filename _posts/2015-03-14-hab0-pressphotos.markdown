@@ -3,8 +3,7 @@ layout: post
 title:  "Press/Photos"
 date:   2015-03-18 08:43:59
 author: Dustin Mayfield-Jones
-categories: Press/Photos
-tags:	
+tags: Press Multimedia
 launch:
 ---
 

@@ -3,8 +3,7 @@ layout: post
 title:  "Communicating your science"
 date:   2015-03-18 08:43:59
 author: Dustin Mayfield-Jones
-categories: Lessons
-tags: (GeneralScience)	
+tags: Lessons GeneralScience
 launch: 
 ---
  

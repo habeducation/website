@@ -3,8 +3,7 @@ layout: post
 title:  "Planning your flight"
 date:   2015-03-14 08:43:59
 author: Dustin Mayfield-Jones
-categories: Lessons
-tags: (GeneralScience)
+tags: Lessons GeneralScience
 launch: 
 ---
 Students will identify the importance of teams in science.

@@ -3,8 +3,7 @@ layout: post
 title:  "Conclusions"
 date:   2015-03-18 08:43:59
 author: Dustin Mayfield-Jones
-categories: launches
-tags:	hab_0
+tags:	Launches
 launch: hab_0
 cover:  "images/bg-alt.jpg"
 ---

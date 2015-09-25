@@ -3,8 +3,7 @@ layout: post
 title:  "GPS: the challenge of syncing with a planet"
 date:   2015-03-14 08:43:59
 author: Dustin Mayfield-Jones
-categories: Lessons
-tags: (Engineering) (PhysicalScience)
+tags: Lessons Engineering PhysicalScience
 launch: 
 ---
 Students will be able to explain geosynchronous orbit.

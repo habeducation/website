@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Noelle Bryan Interview"
-date:   2015-03-18 08:43:59
+title:  "Noelle Bryan"
+date:   2015-10-28 08:43:59
 author: "Dustin Mayfield-Jones and Huan Truong"
 tags:	Interviews
+abstract: "How far would you go to recover your payload? Would you take a chance in alligator infested waters? That is exactly what Noelle Bryan did while searching Lake Pontchartrain, Louisiana for her missing payload. In fact, HABs have taken her on several adventures during her quest to understand the microbiology of the stratosphere."
 ---
 
 **How far would you go to recover your payload? Would you take a chance in alligator infested waters? That is exactly what Noelle Bryan did while searching Lake Pontchartrain, Louisiana for her missing payload. In fact, HABs have taken her on several adventures during her quest to understand the microbiology of the stratosphere.**

@@ -35,7 +35,7 @@ title: Sitemap
             {% if page.url == node.url %}
             <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
             {% else %}
-            <li><a href="{{node.url}}">{{node.title}}</a></li>
+            <li><strong><a href="{{node.url}}">{{node.title}}</a></strong> - {% if node.abstract != null %}{{node.abstract}}{% end if %}</li>
             {% endif %}
           {% endif %}
         {% endif %}

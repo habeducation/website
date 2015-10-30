@@ -2,7 +2,7 @@
 layout: post
 title:  "Noelle Bryan Interview"
 date:   2015-03-18 08:43:59
-author: Dustin Mayfield-Jones and Huan Truong
+author: "Dustin Mayfield-Jones and Huan Truong"
 tags:	Interviews
 ---
 

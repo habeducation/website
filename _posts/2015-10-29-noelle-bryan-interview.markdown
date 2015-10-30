@@ -8,7 +8,7 @@ tags:	Interviews
 
 **How far would you go to recover your payload? Would you take a chance in alligator infested waters? That is exactly what Noelle Bryan did while searching Lake Pontchartrain, Louisiana for her missing payload. In fact, HABs have taken her on several adventures during her quest to understand the microbiology of the stratosphere.**
 
-![Image courtersy of Noelle Bryan](/images/noelle/IMG_2999r.jpg)
+![Image courtersy of Noelle Bryan](/images/noelle/IMG_2599r.jpg)
 
 _On September 9th, 2015_, Huan and Dustin from HAB.education got a chance to chat with Noelle, a researcher at Louisiana State University. We came away from the conversation shocked at how many basic questions are only now seemingly answerable, all due to new methods developed through teamwork. Very soon, we hope to know a great deal more about the diversity, abundance, and extent of microbes living in conditions previously thought to be uninhabitable! In fact, the extremely cold, dry, low-pressure, high-radiation environments are similar to those found on Mars. Further research of these microbes may help us answer where life is lurking on other planets and even how it originated here on earth <http://www.ncbi.nlm.nih.gov/pubmed/24106911>.
 
@@ -16,7 +16,7 @@ While research on microorganisms near earth's surface has been well established 
 
 They have helped standardize a working payload and sample analysis protocol so future flights can make direct comparisons between different places and time periods. Bryan says, One of the purposes of the payload paper is to put forth the design and electronics and programming... [for] people to take and repeat and verify.
 
-![Great Payload](/images/noelle/IMG_2995r.jpg)
+![Great Payload](/images/noelle/IMG_2595r.jpg)
 
 While the package comes in at under $5,000 USD and requires maximally 10 people to help launch, it may be just out of reach for many amateur groups to get on board. However, there are several funding agencies that could potentially help make more flights a reality for citizen scientists.
 

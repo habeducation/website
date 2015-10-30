@@ -9,9 +9,12 @@ abstract: "How far would you go to recover your payload? Would you take a chance
 
 **How far would you go to recover your payload? Would you take a chance in alligator infested waters? That is exactly what Noelle Bryan did while searching Lake Pontchartrain, Louisiana for her missing payload. In fact, HABs have taken her on several adventures during her quest to understand the microbiology of the stratosphere.**
 
-![Image courtersy of Noelle Bryan](/images/noelle/IMG_2599r.jpg)
+
+![Image courtersy of Noelle Bryan](/images/noelle/noelle_fav.jpg)
 
 _On September 9th, 2015_, Huan and Dustin from HAB.education got a chance to chat with Noelle, a researcher at Louisiana State University. We came away from the conversation shocked at how many basic questions are only now seemingly answerable, all due to new methods developed through teamwork. Very soon, we hope to know a great deal more about the diversity, abundance, and extent of microbes living in conditions previously thought to be uninhabitable! In fact, the extremely cold, dry, low-pressure, high-radiation environments are similar to those found on Mars. Further research of these microbes may help us answer where life is lurking on other planets and even how it originated here on earth <http://www.ncbi.nlm.nih.gov/pubmed/24106911>.
+
+![Image courtersy of Noelle Bryan](/images/noelle/IMG_2599r.jpg)
 
 While research on microorganisms near earth's surface has been well established both horizontally and temporally (e.g. seasonal, diurnal, pre- and post- storm sampling), little is known about what lives at higher altitudes and their impact on an atmospheric processes scale. Due to possible contamination during flight, certainty regarding sampling from the stratosphere has been limited. Noelle, along with other researchers, have worked hard to ensure what they are capturing is indeed from their target altitudes, publishing their method in December 2014 <http://www.sciencedirect.com/science/article/pii/S0167701214002978>.
 

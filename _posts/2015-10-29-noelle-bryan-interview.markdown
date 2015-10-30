@@ -9,7 +9,7 @@ abstract: "How far would you go to recover your payload? Would you take a chance
 
 **How far would you go to recover your payload? Would you take a chance in alligator infested waters? That is exactly what Noelle Bryan did while searching Lake Pontchartrain, Louisiana for her missing payload. In fact, HABs have taken her on several adventures during her quest to understand the microbiology of the stratosphere.**
 
-![Alligators - Do not cross](/images/noelle/IMG_0443r.jpg)
+![Image courtersy of Noelle Bryan](/images/noelle/IMG_2599r.jpg)
 
 _On September 9th, 2015_, Huan and Dustin from HAB.education got a chance to chat with Noelle, a researcher at Louisiana State University. We came away from the conversation shocked at how many basic questions are only now seemingly answerable, all due to new methods developed through teamwork. Very soon, we hope to know a great deal more about the diversity, abundance, and extent of microbes living in conditions previously thought to be uninhabitable! In fact, the extremely cold, dry, low-pressure, high-radiation environments are similar to those found on Mars. Further research of these microbes may help us answer where life is lurking on other planets and even how it originated here on earth <http://www.ncbi.nlm.nih.gov/pubmed/24106911>.
 
@@ -23,7 +23,7 @@ While the package comes in at under $5,000 USD and requires maximally 10 people 
 
 Critical to their achievement was the collaboration between people from traditionally disparate fields. Expertise in physics, astronomy, environmental microbiology, engineering, statistics, and paleoclimatology was needed to ensure the collection of meaningful data. Yet, with all this help, they faced some of the same problems all HAB enthusiasts share. Landing and recovery has resulted in some particularly funny stories. In addition to when Noelle searched Lake Pontchartrain with the aid of alligator farmers, on another flight, she waited 8 hours in a pine lumber forest before getting clearance to cut down a tree. First, the owners had to be contacted in Japan! With about 20 flights, Noelle and her team have managed to land in everything from rice paddies to cow patties. But despite these unusual landings, they have recovered all their payloads except for one. That one now belongs to the alligators.
 
-![Image courtersy of Noelle Bryan](/images/noelle/IMG_2599r.jpg)
+![Alligators - Do not cross](/images/noelle/IMG_0443r.jpg)
 
 With all of your crazy landings, do you have any plan to add features to steer out of trouble? Asked Huan. Think quadcopter.
 

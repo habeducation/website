@@ -21,7 +21,8 @@ You can also contact a volunteer from your region:
 
 
 
-**Dustin Mayfield-Jones**
+
+**Dustin Mayfield-Jones**  
 at University of Missouri-Saint Louis    
 drm5y3@mail.missouri.edu
 

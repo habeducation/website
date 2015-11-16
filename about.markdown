@@ -45,3 +45,7 @@ dbindner@truman.edu
 at [Arch Reactor Hackerspace]({{ http://archreactor.org }}) in Saint Louis  
 dereksigler@yahoo.com
 
+
+**Debora Lintner**  
+at University of Missouri-Columbia      
+LintnerDR@missouri.edu

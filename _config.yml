@@ -2,13 +2,13 @@
 title: HAB.education
 subtitle: "HAB.education"
 email: contact@hab.education
-github_username: habeducation.github.io
+github_username: habeducation
 twitter_username: BalloonEDU
 facebook_username: habgroup
 owner: Dustin Mayfield-Jones
 description: > 
   HAB.education - materials and blog!
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "/"
 url: "http://hab.education" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.jpg"

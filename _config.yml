@@ -5,7 +5,7 @@ email: contact@hab.education
 github_username: habeducation.github.io
 twitter_username: BalloonEDU
 facebook_username: habgroup
-name: Dustin Mayfield-Jones
+owner: Dustin Mayfield-Jones
 description: > 
   HAB.education - materials and blog!
 baseurl: "/" # the subpath of your site, e.g. /blog/
@@ -15,8 +15,6 @@ logo: "assets/logo.jpg"
 
 # Build settings
 markdown: kramdown
-paginate: 5
-paginate_path: "/page:num/"
 
 # Disqus comments
 disqus_shortname: habeducation

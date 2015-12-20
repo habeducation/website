@@ -6,15 +6,15 @@ title: About Us
 
 ---
 We believe that a STEAM education should be available to everyone. We want to help connect people that agree. Share ideas and learn how others are using HABs.  
-{: style="color:black; font-size: 100%; text-align: center;"}
+{: style="text-align: center; font-size:150%;"}
 
  
 We operate on a volunteer model.  
 If you would like to help, contact us at:
-{: style="color:black; font-size: 100%; text-align: center;"}
+{: style="text-align: center;"}
 
 contact@hab.education 
-{: style="color:black; font-size: 100%; text-align: center;"}
+{: style="text-align: center;"}
 
 
 You can also contact a volunteer from your region:

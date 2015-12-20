@@ -1,4 +1,7 @@
-
+---
+layout: page
+title: Flights
+---
 # HAB_0
 Tested Trackuino radio, captured various sensor data, and HiDef video.</div>
 		

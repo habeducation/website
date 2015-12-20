@@ -42,8 +42,8 @@ body {
 /* Services */
 
 .services {
-    background: #000 url("../img/banner.svg") bottom center no-repeat;
     padding: 50px 0;
+    background: #000;
 }
 
 .service-item {
@@ -52,7 +52,7 @@ body {
 /* Footer */
 
 footer {
-    background: #000;
+    background: #000 url("../img/banner.svg") bottom center no-repeat;
     padding: 100px 0;
 }
 

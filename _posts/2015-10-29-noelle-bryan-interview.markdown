@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Noelle Bryan"
+title:  "Interview with Noelle Bryan, atomospheric microbiology"
 date:   2015-10-28 08:43:59
 author: "Dustin Mayfield-Jones and Huan Truong"
 tags:	Interviews

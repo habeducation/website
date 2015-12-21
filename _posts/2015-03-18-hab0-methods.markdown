@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Methods"
+title:  Cost breakdown of our GPSL2015 balloon
 date:   2015-03-18 08:43:59
 author: Dustin Mayfield-Jones
 tags:	Launches

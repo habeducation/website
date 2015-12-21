@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Stanford Space Initiative"
+title:  "Talking with the Stanford Space Initiative"
 date:   2015-11-05 08:43:59
 author: "Dustin Mayfield-Jones and Huan Truong"
 tags:	Interviews

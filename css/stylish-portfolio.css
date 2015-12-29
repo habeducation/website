@@ -56,3 +56,8 @@ footer {
     padding: 100px 0;
 }
 
+
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}

@@ -3,7 +3,17 @@ layout: page
 title: Lessons
 ---
 
-# Lessons
+# What we offer?
+
+We are now working to provide free support and resources for educators to teach engaging, fun, and interactive lessons. We want to defeat the myths that teaching STEAM is expensive, extra, and advanced.
+
+- Our lessons are free, and many are free to implement. Joining us for our regular flights is free.
+- Our modular lessons can be taught with current standard curriculum. 
+- Our lessons are designed for the novice, requiring little to no initial experience.
+
+*If you have comments or inquiries about our lessons, please contact us at contact@HAB.education*
+
+# Lessons under development:
 
 ###Communicating your science (General Science)
 + Students will be able to explain the role of the average citizen in scientific discovery. Students will understand how and why all citizens help pay for scientific research. Students will be able to explain 5 examples of scientific communication breakdown.

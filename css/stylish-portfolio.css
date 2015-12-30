@@ -79,3 +79,7 @@ footer {
     margin-right: auto;
     max-height: 400px;
 }
+
+.postcontent img {
+    max-width: 700px;
+}

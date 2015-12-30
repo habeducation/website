@@ -1,0 +1,22 @@
+{
+  "name": "habeducation.github.io",
+  "homepage": "https://github.com/habeducation/habeducation.github.io",
+  "authors": [
+    "Colin <colin.diesh@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "highcharts": "highcharts-release#~4.2.0"
+  }
+}

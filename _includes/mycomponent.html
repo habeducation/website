@@ -1,0 +1,43 @@
+
+<script src="{{base}}/js/jquery.js"></script>
+<script src="{{base}}/src/highcharts/highcharts.js"></script>
+
+<div id="container-b" style="min-width: 310px; max-width: 600px; height: 400px; margin: 0 auto"></div>
+
+<script>
+$(function () {
+   chart = new Highcharts.Chart({
+        chart: {
+        renderTo: 'container-b',
+            type: 'pie',
+            options3d: {
+                enabled: true,
+                alpha: 45
+            }
+        },
+        title: {
+            text: 'HAB_0 cost breakdown in US dollar'
+        },
+        subtitle: {
+            text: ''
+        },
+        plotOptions: {
+            pie: {
+                innerSize: 100,
+                depth: 45
+            }
+        },
+        series: [{
+            name: 'Cost',
+            data: [
+                ['balloon (latex/helium)', 215],
+                ['parachute', 45],
+                ['sensordrone', 100],
+                ['gopro', 170],
+                ['trackuino', 200],
+                
+            ]
+        }]
+    });
+});
+</script>

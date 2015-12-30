@@ -1,41 +1,47 @@
 ---
 layout: post
-title:  "Results"
+title:  "Results of the HAB_0 launch"
 date:   2015-03-18 08:43:59
 author: Dustin Mayfield-Jones
 tags:	Launches
 launch: HAB 0
-cover:  "images/bg-alt.jpg"
 ---
 
 # General Flight Extrema
 
-+Total straight-line distance  = 86.61 km (53.82 mi)
-+Total flight time = 2.5 hours
-+Initial altitude = 309.07 m (1014 ft)
-+Maximum altitude = 33,257.6m (109,113ft)
-+Maximum payload speed = 158km (98 mph)
-+Minimum external temperature = -45°C at 11,510.77m (-49°F at 37,207ft)
+We gathered these basic statistics for the HAB_0 launch
+
+- Total straight-line distance  = 86.61 km (53.82 mi) 
+- Total flight time = 2.5 hours 
+- Initial altitude = 309.07 m (1014 ft)
+- Maximum altitude = 33,257.6m (109,113ft)
+- Maximum payload speed = 158km (98 mph)
+- Minimum external temperature = -45°C at 11,510.77m (-49°F at 37,207ft)
 
 
-Figure 1: APRS tracking of HAB_0. Launch site (1A), landing site (1B), and flight path over Illinois (1C and 1D). Images generated with Google Maps (1A, 1B, 1D) and Google Earth (1C). Input file (.kml) downloaded from aprs.fi with radio call sign KE0BVB. 
+Figure 1: APRS tracking of HAB_0. Launch site (1A), landing site (1B), and
+flight path over Illinois (1C and 1D). Images generated with Google Maps (1A,
+1B, 1D) and Google Earth (1C). Input file (.kml) downloaded from aprs.fi with
+radio call sign KE0BVB. 
 
-1A Launch Site: Ball diamond in Damiansville, ILLaunch
+![flightpath]({{base}}/images/mjwebsitetransfer/results/Launch.png)
 
-1B Landing Site
+Figure 1A Launch Site: Ball diamond in Damiansville, ILLaunch
 
-Landing1C  Three-Dimensional Flight Path
+![flightpath]({{base}}/images/mjwebsitetransfer/results/Landing.png)
 
-## HAB_0 FlightPath
-
-1D Two-Dimensional Flight Path
+Figure 1B Landing Site
 
 
-View larger map
+![flightpath]({{base}}/images/mjwebsitetransfer/results/FlightPath.jpg)
+
+Figure 1D Two-Dimensional Flight Path
+
 
 Figure 2: Payload speed (2A) and inferred air layers (2B).
 
-Payload speed data from APRS tracking. Interactive JavaScript chart generated with Highcharts.
+Payload speed data from APRS tracking. Interactive JavaScript chart generated
+with Highcharts.
 
 
 ## 2A Payload speed during flight time (UTC)
@@ -44,30 +50,48 @@ Highcharts.com
 
 ## 2B Inferred air layers
 
-Latitude (top), longitude (middle), and payload speed (bottom) data from APRS tracking. Blue bars mark changes in air layers manually inferred from changes in payload direction and speed. Red bar indicates the time of balloon burst and start of payload descent. Layers only indicated for balloon ascent due to lack of sampling granularity during descent.
+Latitude (top), longitude (middle), and payload speed (bottom) data from APRS
+tracking. Blue bars mark changes in air layers manually inferred from changes
+in payload direction and speed. Red bar indicates the time of balloon burst and
+start of payload descent. Layers only indicated for balloon ascent due to lack
+of sampling granularity during descent.
 
 10835042_10100438601635962_8429132038596963337_o
 
-Figure 3: Exterior payload temperature by altitude (ascent only). 3A Metric and 3B English units.
+Figure 3: Exterior payload temperature by altitude (ascent only). 3A Metric and
+3B English units.
 
-Sensordrone data shown for ascent only due to lack of sampling granularity during descent. Interactive JavaScript charts generated with Highcharts.
+Sensordrone data shown for ascent only due to lack of sampling granularity
+during descent. Interactive JavaScript charts generated with Highcharts.
 
 
-Altitude
-Temperature
-3A Exterior payload temperature by altitude (metric)
+Altitude Temperature 3A Exterior payload temperature by altitude (metric)
 
-Altitude
-Temperature
-3B Exterior payload temperature by altitude (English)
+Altitude Temperature 3B Exterior payload temperature by altitude (English)
 
 Highcharts.com
  
-Figure 4: Select recorded variables plotted over elapsed flight time (2.5 hours) 
+Figure 4: Select recorded variables plotted over elapsed flight time (2.5
+hours) 
 
-Sensordrone- and Trackuino-generated data converted to input file (.csv) with custom scripts and plotted with RStudio. The Sensordrone and APRS data are integrated by aligning all elapsed time points from the APRS-derived maximum altitude and Sensordrone-derived minimum pressure. This correction method seems reasonable given the overlapping temperature profiles from the Trackuino and Sensordrone instruments (see Figure 4).
+Sensordrone- and Trackuino-generated data converted to input file (.csv) with
+custom scripts and plotted with RStudio. The Sensordrone and APRS data are
+integrated by aligning all elapsed time points from the APRS-derived maximum
+altitude and Sensordrone-derived minimum pressure. This correction method seems
+reasonable given the overlapping temperature profiles from the Trackuino and
+Sensordrone instruments (see Figure 4).
 
-Variables: (A) payload speed, (B) altitude (meters), (C) altitude (feet), (D) electronics voltage *, (E) internal payload temperature *, (F) external payload temperature *, (G) ambient internal payload temperature, (H) humidity, (I) pressure, (J) reducing gas, (K) ozone, measured by the proxy oxidizing gas, (L) infrared internal payload temperature. Measurements are generated by Sensordrone unless noted by an asterisk  (*) indicating Trackuino-based measurement. Blue boxes indicate regions of interest (ROI), the purple box indicates a reflection point in recorded temperatures and ozone, and the red bar indicates the elapsed time point when the balloon burst and the payload began to decrease altitude. For a discussion on the ROI, see the Conclusions page.
+Variables: (A) payload speed, (B) altitude (meters), (C) altitude (feet), (D)
+electronics voltage *, (E) internal payload temperature *, (F) external payload
+temperature *, (G) ambient internal payload temperature, (H) humidity, (I)
+pressure, (J) reducing gas, (K) ozone, measured by the proxy oxidizing gas, (L)
+infrared internal payload temperature. Measurements are generated by
+Sensordrone unless noted by an asterisk  (*) indicating Trackuino-based
+measurement. Blue boxes indicate regions of interest (ROI), the purple box
+indicates a reflection point in recorded temperatures and ozone, and the red
+bar indicates the elapsed time point when the balloon burst and the payload
+began to decrease altitude. For a discussion on the ROI, see the Conclusions
+page.
 
 ## HAB_0Download public balloon data file (.csv)
 

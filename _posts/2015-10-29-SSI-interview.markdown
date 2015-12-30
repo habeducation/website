@@ -59,10 +59,10 @@ launch their balloon in California and terminate the flight over one of many
 possible recovery zones. There, a group or local individual from the community
 could recover and return the expensive payload. 
 
-To appreciate the HAB community, check out ARHAB’s (Amateur Radio High Altitude
-Balloon) website that collects and posts mission information such as launch
-location and time, tracking frequencies, and other mission owner data. Also,
-http://tracker.habhub.org/ has awesome tools for flight prediction, tracking,
+To appreciate the HAB community, check out <a href="http://www.arhab.org">ARHAB’s (Amateur Radio High Altitude
+Balloon website)</a> that collects and posts mission information such as launch
+location and time, tracking frequencies, and other mission owner data. Also, <a href="http://tracker.habhub.org/">habhub</a>
+ has awesome tools for flight prediction, tracking,
 and communication with other HAB enthusiasts. Despite these terrific resources,
 as of yet, we at HAB.education know of no recovery network within the
 community. As our members geographically stretch from Southern Iowa, through

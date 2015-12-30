@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  "Interview with Noelle Bryan, atomospheric microbiology"
+title:  "Interview with Noelle Bryan: atomospheric microbiology"
 date:   2015-10-28 08:43:59
 author: "Dustin Mayfield-Jones and Huan Truong"
 tags:	Interviews
 abstract: "How far would you go to recover your payload? Would you take a chance in alligator infested waters? That is exactly what Noelle Bryan did while searching Lake Pontchartrain, Louisiana for her missing payload. In fact, HABs have taken her on several adventures during her quest to understand the microbiology of the stratosphere."
 ---
 
-# Interview with Noelle Bryan, atomospheric microbiology
+# Interview with Noelle Bryan: atomospheric microbiology
 
 
-How far would you go to recover your payload? Would you take a chance in
+**How far would you go to recover your payload? Would you take a chance in
 alligator infested waters? That is exactly what Noelle Bryan did while
 searching Lake Pontchartrain, Louisiana for her missing payload. In fact, HABs
 have taken her on several adventures during her quest to understand the
-microbiology of the stratosphere.
+microbiology of the stratosphere.**
 
 
 ![Image courtersy of Noelle Bryan]({{base}}/images/noelle/noelle_fav.jpg)
@@ -26,9 +26,7 @@ answerable, all due to new methods developed through teamwork. Very soon, we
 hope to know a great deal more about the diversity, abundance, and extent of
 microbes living in conditions previously thought to be uninhabitable! In fact,
 the extremely cold, dry, low-pressure, high-radiation environments are similar
-to those found on Mars. Further research of these microbes may help us answer
-where life is lurking on other planets and even how it originated here on earth
-<http://www.ncbi.nlm.nih.gov/pubmed/24106911>.
+to those found on Mars. Further research of these microbes may help us answer <a href="http://www.ncbi.nlm.nih.gov/pubmed/24106911">where life is lurking on other planets and even how it originated here on earth .</a>
 
 ![Image courtersy of Noelle Bryan]({{base}}/images/noelle/IMG_2599r.jpg)
 
@@ -38,9 +36,7 @@ sampling), little is known about what lives at higher altitudes and their
 impact on an atmospheric processes scale. Due to possible contamination during
 flight, certainty regarding sampling from the stratosphere has been limited.
 Noelle, along with other researchers, have worked hard to ensure what they are
-capturing is indeed from their target altitudes, publishing their method in
-December 2014
-<http://www.sciencedirect.com/science/article/pii/S0167701214002978>.
+capturing is indeed from their target altitudes, <a href="http://www.sciencedirect.com/science/article/pii/S0167701214002978">publishing their method in December 2014.</a>
 
 They have helped standardize a working payload and sample analysis protocol so
 future flights can make direct comparisons between different places and time
@@ -82,8 +78,7 @@ Because UV is thought to be one of the major factors hindering life in the
 stratosphere, accurate UV measurements could answer how the microbes are
 surviving. If they can undergo metabolism, growth, or replication independent
 of Earth's surface, perhaps we should start looking at the atmosphere of nearby
-planets when searching for life. Based on previous reports
-<http://www.ncbi.nlm.nih.gov/pubmed/14649627>, Noelle and colleagues
+planets when searching for life. Based on <a href="http://www.ncbi.nlm.nih.gov/pubmed/14649627">previous reports</a>, Noelle and colleagues
 hypothesize that a very small amount of dust can help shield the microbes from
 harmful UV rays. Also, some microbes form a protective endospore shield when
 under stress. Other microorganisms, like Deinococcus radiodurans, have

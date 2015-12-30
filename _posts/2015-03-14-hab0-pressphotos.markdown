@@ -7,23 +7,40 @@ tags: Press Multimedia
 launch:
 ---
 
-HAB_0 mentioned by Arch Reactor President, Deech Mestel, on television show Stay Tuned on KETC-PBS St. Louis, Missouri
+# Press/Photos
+
+### Television
+
+HAB_0 mentioned by Arch Reactor President, Deech Mestel, on television show
+Stay Tuned on KETC-PBS St. Louis, Missouri
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PfyQ5SZJEcs" frameborder="0" allowfullscreen></iframe>
+
+
+### Dustin and Derek in Saint Louis Post Dispatch
+
+![newspaper]({{base}}/images/news.png)
 
 
 
-Dustin and Derek in Saint Louis Post Dispatch
+### Truman State University Newspaper article
 
-10923590_10100402268008842_2900182325598464030_n
+[![truman]({{base}}/images/article.png)]({{base}}/assets/truman.pdf)
 
-Truman State University Newspaper article
 
-article
+### Twitter
 
-HAB_0 joins Raspberry Pi Meetup Group’s Pi Day Event at TechArtista during payload recovery
+HAB_0 joins Raspberry Pi Meetup Group’s Pi Day Event at TechArtista during
+payload recovery
 
-Eagerly awaiting news of where the balloon will land. @plant_sci_guy in So. Illinois en route to meet it! pic.twitter.com/vwhIZV2Olx
+_Eagerly awaiting news of where the balloon will land. @plant_sci_guy in So.
+Illinois en route to meet it! pic.twitter.com/vwhIZV2Olx_
 
-— JK AA (@STLRasPi) March 14, 2015
+— JK AA (@STLRasPi) March 14, 2015 https://twitter.com/STLRasPi/status/576849717679751168
 
-Huan and Dustin at Raspberry Pi Jam at Donald Danforth Plant Science Center in Saint Louis, MO
-IMG_20150131_153114
+### Raspberry Pi Jam
+
+Huan and Dustin at Raspberry Pi Jam at Donald Danforth Plant Science Center in
+Saint Louis, MO
+
+![IMG_20150131_153114]({{base}}/images/stlpiday.jpg)

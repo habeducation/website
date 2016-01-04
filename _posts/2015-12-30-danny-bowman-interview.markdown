@@ -39,7 +39,7 @@ The ability to design and construct infrasound microphones is limited. While the
 ![Image courtersy of Daniel Bowman]({{base}}/images/danny/datacube.jpg)
 
 
-Danny is excited by the possibilities of solar balloons. He says there are many records to break within reach of amateur HAB engineers. A more vibrant solar balloon community could help drive the innovation necessary for creating cheaper, more robust solar balloons. And this would allow for the increased sampling he needs for collecting more data. Danny specifically wants to challenge the HAB community to launch a camera and GPS on a solar balloon to break his record of 72k ft (see above photo from his launch in May 2015). We need to be going bigger and higher with cheaper balloons. Amateurs could really contribute to cutting edge research by improving solar balloons. 
+Danny is excited by the possibilities of solar balloons. He says there are many records to break within reach of amateur HAB engineers. A more vibrant solar balloon community could help drive the innovation necessary for creating cheaper, more robust solar balloons. And this would allow for the increased sampling he needs for collecting more data. Danny specifically wants to challenge the HAB community to launch a camera and GPS on a solar balloon to break his record of 72k ft (see photo below from his launch in May 2015). We need to be going bigger and higher with cheaper balloons. Amateurs could really contribute to cutting edge research by improving solar balloons. 
 
 ![Image courtersy of Daniel Bowman]({{base}}/images/danny/00666.jpg)
 

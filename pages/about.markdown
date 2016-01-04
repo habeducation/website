@@ -49,3 +49,8 @@ dereksigler@yahoo.com
 **Debora Lintner**  
 at University of Missouri-Columbia      
 LintnerDR@missouri.edu
+
+
+**Colin D**  
+at University of Missouri-Columbia    
+http://cmdcolin.github.io

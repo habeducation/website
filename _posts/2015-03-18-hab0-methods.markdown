@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Cost breakdown of our GPSL2015 balloon
+title:  Cost breakdown of our HAB_0 balloon
 date:   2015-03-18 08:43:59
 author: Dustin Mayfield-Jones
 tags:	Launches
@@ -31,9 +31,7 @@ The three major components of HAB\_0 are the balloon, the recovery parachute, an
 * The power for the trackuino is supplied by lithium battery pack for an estimated total of 12 volts ($30; local battery outlet)
 * A balsa wood and styrofoam fin is added to aid in aerodynamic stability of the payload. A counter weight to the fin includes Spike, the Truman State University mascot.
 
-After and before photos of printed circuit board assembly 20141201\_000033APRS-enabled radio tracking of payload test
-
-With our setup, we expect an ascent rate of 890-1000ft/min to a payload of 2-4lbs, the balloon should reach ~100k-110K feet.
+With our setup, we expected an ascent rate of 890-1000ft/min to a payload of 2-4lbs, the balloon was predicted to reach ~100k-110K feet.
 
 
 {% include mycomponent.html %}

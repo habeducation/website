@@ -9,7 +9,10 @@ title: Events Calendar
 
 # Upcoming events
  
-- Saint Louis Public Library (Julia Davis Branch): January 30, 2016
+- STEMpact STEM Fair (Julia Davis Branch): February 11, 2016
+- Saint Louis Public Library (Julia Davis Branch): February 13, 2016
+- East St. Louis School District's First Annual Family STEM Night : March 30, 2016
+
 
 # Past events
 

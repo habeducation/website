@@ -9,10 +9,10 @@ title: Events Calendar
 
 # Upcoming events
  
-- STEMpact STEM Fair: February 11, 2016
-- Saint Louis Public Library (Julia Davis Branch): February 13, 2016
 - East St. Louis School District's First Annual Family STEM Night : March 30, 2016
-
+- Saint Louis Space Frontiers Inaugural Launch! : April 2016
+- YMCA Science Gone Mad Student Launch : April 2016
+- Great Plains Super Launch (Pecan Plantation, Granbury, Texas) : June 16-16, 2016
 
 # Past events
 
@@ -22,3 +22,5 @@ title: Events Calendar
 - Saint Louis Raspberry Pi Jam: October 3, 2015
 - Kirksville Launch: October 24, 2015
 - Saint Louis Balloon Hack: November 2015
+- STEMpact STEM Fair: February 11, 2016
+- Saint Louis Public Library (Julia Davis Branch): February 13, 2016

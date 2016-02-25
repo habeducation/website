@@ -12,7 +12,7 @@ abstract: "Making interesting inteactive graphs in d3"
 
 
 When we launched HAB_0, we received a lot of data from our payload about things
-like the altitude, pressure, humidity, tempurature, and flightpath of the
+like the altitude, pressure, humidity, temperature, and flightpath of the
 balloon. To help make sense of the data, we made this app in D3.js to help us
 visualize the results, and we thought it would be great to share it! You can
 choose different variables to plot using the dropdown box below, and the new

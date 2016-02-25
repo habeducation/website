@@ -34,4 +34,4 @@ The three major components of HAB\_0 are the balloon, the recovery parachute, an
 With our setup, we expected an ascent rate of 890-1000ft/min to a payload of 2-4lbs, the balloon was predicted to reach ~100k-110K feet.
 
 
-{% include mycomponent.html %}
+{% include cost_breakdown.html %}

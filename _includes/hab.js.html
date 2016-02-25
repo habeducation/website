@@ -18,9 +18,65 @@
     background: #eee;
     margin: 20px;
   }
+  #arbitrary{
+    width: 1300px;
+    background: #eee;
+    margin: 20px;
+  }
 </style>
 <script src="{{base}}/js/hab.js"></script>
+<script src="{{base}}/js/jquery.js"></script>
 <div id="line"></div>
 <div id="latlong"></div>
 <div id="pressure"></div>
 <div id="version"></div>
+
+
+<p>Make your own plots! Select two variables to plot</p>
+<select id="var1">
+  <option value="altitude_m">Altitude (meters)</option>
+  <option value="altitude_ft">Altitude (feet)</option>
+  <option value="lat">Latitude</option>
+  <option value="lng">Longitude</option>
+  <option value="timestamp_fixed">Timestamp</option>
+  <option value="speed">Speed</option>
+  <option value="volt">Volts</option>
+  <option value="t_ext">Temperature (external)</option>
+  <option value="t_int">Temperature (internal)</option>
+  <option value="t_amb">Temperature (ambient)</option>
+  <option value="humid">Humidity</option>
+  <option value="pressure">Pressure</option>
+  <option value="prec_gas">Prec. gas</option>
+  <option value="reduc_gas">Reduc. gas</option>
+  <option value="oxid_gas">Oxid. gas</option>
+</select>
+<select id="var2">
+  <option value="altitude_m">Altitude (meters)</option>
+  <option value="altitude_ft">Altitude (feet)</option>
+  <option value="lat">Latitude</option>
+  <option value="lng">Longitude</option>
+  <option value="timestamp_fixed">Timestamp</option>
+  <option value="speed">Speed</option>
+  <option value="volt">Volts</option>
+  <option value="t_ext">Temperature (external)</option>
+  <option value="t_int">Temperature (internal)</option>
+  <option value="t_amb">Temperature (ambient)</option>
+  <option value="humid">Humidity</option>
+  <option value="pressure">Pressure</option>
+  <option value="prec_gas">Prec. gas</option>
+  <option value="reduc_gas">Reduc. gas</option>
+  <option value="oxid_gas">Oxid. gas</option>
+</select>
+<div id="arbitrary"></div>
+
+
+<script>
+$("#var1").on('change', function() {
+    $("#arbitrary").empty();
+    plot_arbitrary($("#var1").val(),$("#var2").val(),$("#var1 option:selected").text(),$("#var2 option:selected").text(),1300,600);
+});
+$("#var2").on('change', function() {
+    $("#arbitrary").empty();
+    plot_arbitrary($("#var1").val(),$("#var2").val(),$("#var1 option:selected").text(),$("#var2 option:selected").text(),1300,600);
+});
+</script>

@@ -12,6 +12,7 @@ title: Events Calendar
 - East St. Louis School District's First Annual Family STEM Night : March 30, 2016
 - Saint Louis Space Frontiers Inaugural Launch! : April 2016
 - YMCA Science Gone Mad Student Launch : April 2016
+- Library Launch at Saint Louis Public Library (Julia Davis Branch): June 4, 2016 3-5pm
 - Great Plains Super Launch (Pecan Plantation, Granbury, Texas) : June 16-16, 2016
 
 # Past events

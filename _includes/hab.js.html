@@ -26,19 +26,13 @@
 </style>
 <script src="{{base}}/js/hab.js"></script>
 <script src="{{base}}/js/jquery.js"></script>
-<div id="line"></div>
-<div id="latlong"></div>
-<div id="pressure"></div>
-<div id="version"></div>
 
-
-<p>Make your own plots! Select two variables to plot</p>
 <select id="var1">
   <option value="altitude_m">Altitude (meters)</option>
   <option value="altitude_ft">Altitude (feet)</option>
   <option value="lat">Latitude</option>
   <option value="lng">Longitude</option>
-  <option value="timestamp_fixed">Timestamp</option>
+  <option value="timestamp_fixed"  selected="selected">Timestamp</option>
   <option value="speed">Speed</option>
   <option value="volt">Volts</option>
   <option value="t_ext">Temperature (external)</option>
@@ -52,7 +46,7 @@
 </select>
 <select id="var2">
   <option value="altitude_m">Altitude (meters)</option>
-  <option value="altitude_ft">Altitude (feet)</option>
+  <option value="altitude_ft"  selected="selected">Altitude (feet)</option>
   <option value="lat">Latitude</option>
   <option value="lng">Longitude</option>
   <option value="timestamp_fixed">Timestamp</option>
@@ -69,14 +63,26 @@
 </select>
 <div id="arbitrary"></div>
 
+<div id="version"></div>
 
 <script>
+function plot_fun() {
+    plot_arbitrary($("#var1").val(),$("#var2").val(),$("#var1 option:selected").text(),$("#var2 option:selected").text(),1300,600);
+}
+
+
 $("#var1").on('change', function() {
     $("#arbitrary").empty();
-    plot_arbitrary($("#var1").val(),$("#var2").val(),$("#var1 option:selected").text(),$("#var2 option:selected").text(),1300,600);
+    plot_fun();
 });
 $("#var2").on('change', function() {
     $("#arbitrary").empty();
-    plot_arbitrary($("#var1").val(),$("#var2").val(),$("#var1 option:selected").text(),$("#var2 option:selected").text(),1300,600);
+    plot_fun();
+});
+
+$(function() {
+    var wait = function() { if(!window.global_data) setTimeout(wait, 100); else plot_fun(); }
+    wait();
 });
 </script>
+

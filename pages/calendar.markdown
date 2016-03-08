@@ -8,7 +8,8 @@ title: Events Calendar
 - We meet fairly regularly to work on different aspects of HAB launches, you are welcome to join every Thursday. Please contact contact@hab.education to connect.
 
 # Upcoming events
- 
+
+- Saint Louis Space Frontier <a href="http://www.meetup.com/Saint-Louis-Space-Frontier-Meetup/events/229409905/?_af=event&_af_eid=229409905&https=off">HAB Electronics Workshop</a> : March 12, 2016 
 - East St. Louis School District's First Annual Family STEM Night : March 30, 2016
 - Saint Louis Space Frontiers Inaugural Launch! : April 2016
 - YMCA Science Gone Mad Student Launch : April 2016

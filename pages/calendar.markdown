@@ -8,7 +8,7 @@ title: Events Calendar
 - We meet regularly to work on different aspects of HAB launches, you are welcome to join every Thursday. Please contact contact@hab.education to connect.
 
 # Upcoming events
-- 2016 <a href="https://sites.google.com/site/2016robotechnoexpo/">Robot and Technology Expo</a> (Park Hills,MO) : April 9, 2016
+- 2016 <a href="https://sites.google.com/site/2016robotechnoexpo/">Robot and Technology Expo</a> (Park Hills, MO) : April 9, 2016
 - YMCA Science Gone Mad Student Launch : April 16, 2016
 - Saint Louis Space Frontiers Inaugural Launch! : April 2016 
 - Library Launch at Saint Louis Public Library (Julia Davis Branch): June 4, 2016 3-5pm

@@ -1,0 +1,19 @@
+{
+    "options": { 
+        "altitude_m":"Altitude (meters)", 
+        "altitude_ft":"Altitude (feet)", 
+        "lat":"Latitude", 
+        "lng":"Longitude", 
+        "speed":"Speed", 
+        "volt":"Volts", 
+        "t_ext":"Temperature (external)", 
+        "t_int":"Temperature (internal)", 
+        "t_amb":"Temperature (ambient)", 
+        "humid":"Humidity", 
+        "pressure":"Pressure", 
+        "prec_gas":"Prec. gas", 
+        "oxid_gas":"Oxid. gas" 
+    },
+    "file": "/data/balloon.csv",
+    "timefield": "timestamp_fixed"
+}

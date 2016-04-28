@@ -18,7 +18,12 @@
     background: #eee;
     margin: 20px;
   }
-  #arbitrary{
+  #arbitrary {
+    width: 1300px;
+    background: #eee;
+    margin: 20px;
+  }
+  #arbitrary2 {
     width: 1300px;
     background: #eee;
     margin: 20px;
@@ -26,6 +31,8 @@
 </style>
 <script src="{{base}}/js/hab.js"></script>
 <script src="{{base}}/js/jquery.js"></script>
+
+<p>First launch</p>
 
 <select id="var1">
 </select>
@@ -35,12 +42,23 @@
 
 <div id="arbitrary"></div>
 
+<p>Second launch</p>
+
+<select id="var1_2">
+</select>
+<select id="var2_2">
+</select>
+
+<div id="arbitrary2"></div>
+
 <div id="version"></div>
 
 <script>
 $(function() {
     setup_graph("#arbitrary", "#var1", "#var2", 1300, 600, "/data/balloon.json");
+    setup_graph("#arbitrary2", "#var1_2", "#var2_2", 1300, 600, "/data/balloon2.json");
     setup_version("#version");
 });
+
 </script>
 

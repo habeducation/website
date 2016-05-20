@@ -12,6 +12,7 @@ title: Events Calendar
 - Saint Louis Space Frontiers Inaugural Launch! : June 4, 2016 
 - Library Launch at Saint Louis Public Library (Julia Davis Branch) : June 4, 2016 3-5pm
 - Great Plains Super Launch (Pecan Plantation, Granbury, Texas) : June 16-19, 2016
+- Saint Louis Regional Educators Workshop : July 2016 
 
 # Past events
 - YMCA Science Gone Mad Student Launch : April 16, 2016

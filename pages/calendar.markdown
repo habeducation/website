@@ -11,11 +11,11 @@ title: Events Calendar
 - Library Launch at Saint Louis Public Library (Julia Davis Branch) : June 4, 2016 3-5pm
 
 Stop by the Julia Davis branch between 3-5pm to:
-Find out what happened during the Library Launch from that morning
-Discover how high altitude balloons are used in STEM education
-Simulate your own flight with prediction software
-Make a temperature humidity sensor with the raspberry pi zero
-Analyze data to discover today's atmosphere: clouds, temperature, ozone layers
+Find out what happened during the Library Launch from that morning.
+Discover how high altitude balloons are used in STEM education.
+Simulate your own flight with prediction software.
+Make a temperature humidity sensor with the raspberry pi zero.
+Analyze data to discover today's atmosphere: clouds, temperature, ozone layers.
 Learn how your school can join other Saint Louis region educators to get involved in the HAB community!
 
 - Saint Louis Space Frontiers Inaugural Launch! : June 4, 2016 

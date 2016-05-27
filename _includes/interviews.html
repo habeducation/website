@@ -1,0 +1,25 @@
+<section class="blade blog">
+
+  <div class="container wider">
+    <div class="row">
+      <div class="twelve columns">
+        <h1>Interviews with scientists using HABs</h1>
+      </div>
+    </div>
+
+    <div class="tab-container">
+        {% for post in site.posts %}
+        {% for tag in post.tags %}
+        {% if tag == "Interviews" %}
+        <a class="tab" href="{{ post.url }}"><!--target="_blank"-->
+          <h3>{{ post.title }}</h3>
+          <div class="subtitle">{{ post.date  | date: "%-d %B %Y" }}</div>
+          <div class="abstract">{{ post.abstract }}</div>
+        </a>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+  </div>
+</section>
+
+

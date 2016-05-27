@@ -14,8 +14,10 @@ Stop by the Julia Davis branch between 3-5pm to:
 Find out what happened during the Library Launch from that morning.
 Discover how high altitude balloons are used in STEM education.
 Simulate your own flight with prediction software.
+Practice using radio direction finding to track your balloon.
 Make a temperature humidity sensor with the raspberry pi zero.
 Analyze data to discover today's atmosphere: clouds, temperature, ozone layers.
+Preview our next generation video system for live, high-def video from balloon to ground.
 Learn how your school can join other Saint Louis region educators to get involved in the HAB community!
 
 - Saint Louis Space Frontiers Inaugural Launch! : June 4, 2016 

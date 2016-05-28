@@ -4,17 +4,26 @@
   <div class="container wider">
     <div class="row">
       <div class="twelve columns">
-        <h1>Latest blog posts</h1>
+        <h1>Blog posts</h1>
       </div>
     </div>
 
     <div class="tab-container">
-        {% for post in site.posts %}
-        <a class="tab" href="{{ post.url }}"><!--target="_blank"-->
+        {% for post in site.posts limit:limitposts %}
+        {% if post.thumb != null %}
+        <a class="tab" href="{{ post.url }}" style="background-image: url('{{ post.thumb }}');">
+        {% else %}
+        <a class="tab" href="{{ post.url }}" style="background-image: url('https://twitter.com/balloonedu/profile_image?size=bigger');">
+        {% endif %}
           <h3>{{ post.title }}</h3>
-          <div class="subtitle">{{ post.date  | date: "%-d %B %Y" }}</div>
+          <div class="subtitle"><!--<strong>{{ post.tags | array_to_sentence_string }}</strong> --><!--{% if post.author != null %}<strong>{{ post.author }}</strong> - {% endif %}-->{{ post.date  | date: "%-d %B %Y" }}</div>
         </a>
         {% endfor %}
+  </div>
+  <div>
+        {% if limitposts < 10 %}
+        <a href="/pages/archive.html">VIEW MORE &gt;&gt;</a>
+        {% endif %}
   </div>
 </section>
 

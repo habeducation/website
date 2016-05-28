@@ -1,22 +1,17 @@
 # Site navigation links
 
-- title: About
-  url: /pages/about.html
-
 - title: Education
-  url: /pages/lessons.html
+  url: /pages/education.html
 
 - title: Science
   url: /pages/interviews.html
 
+- title: Data
+  url: /pages/data.html
+
 - title: Events
   url: /pages/calendar.html
 
-- title: Launch Story
-  url: http://ccgiscoop.maps.arcgis.com/apps/MapJournal/index.html?appid=91fe748015b24b23b883f5b66e3ded96
-
-- title: Facebook Group
-  url: https://www.facebook.com/groups/habgroup/
-
-
+- title: Contact
+  url: /pages/about.html
 

@@ -3,14 +3,14 @@
   <div class="container wider">
     <div class="row">
       <div class="twelve columns">
-        <h1>Interviews with scientists using HABs</h1>
+        <h1>Data analysis posts</h1>
       </div>
     </div>
 
     <div class="tab-container">
         {% for post in site.posts %}
         {% for tag in post.tags %}
-        {% if tag == "Interviews" %}
+        {% if tag == "DataScience" %}
         {% if post.thumb != null %}
         <a class="tab" href="{{ post.url }}" style="background-image: url('{{ post.thumb }}');">
         {% else %}

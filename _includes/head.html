@@ -154,14 +154,15 @@ a {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
     color: #3ab3eb;
     font-weight: 300;
     margin: 0;
     padding: 0
 }
 p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px
 }
 ul {
@@ -235,6 +236,9 @@ h2 {
 }
 h3 {
     font-size: 26px
+}
+h4 {
+    font-size: 22px
 }
 .desktop-only {
     display: none
@@ -1326,7 +1330,7 @@ section.blade.blog .tab-container {
 }
 section.blade.blog .tab-container .tab {
     display: block;
-    padding: 20px 20px 20px 100px;
+    padding: 20px 20px 20px 110px;
     background-color: #fff;
     margin-bottom: 10px;
     color: #333;
@@ -1338,6 +1342,8 @@ section.blade.blog .tab-container .tab {
     -webkit-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out
 }
+
+
 section.blade.blog .tab-container .tab h3 {
     font-size: 20px;
     color: #212121;
@@ -1362,7 +1368,7 @@ section.blade.blog .tab-container .tab .abstract {
 }
 @media only screen and (max-width: 870px) {
     section.blade.blog .tab-container .tab {
-        padding-left: 60px
+        padding-left: 110px
     }
     section.blade.blog .tab-container .tab h3 {
         font-size: 16px
@@ -1407,7 +1413,16 @@ section.blade.blog .tab-container .tab .abstract {
     }
 }
 .who h1 {
-    margin-bottom: 1em
+    border-bottom: 1px solid #1b1464;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+}
+.who h2 {
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+.who h3 {
+    margin-top: 0.5em;
 }
 .who .section-title {
     color: #1b1464;
@@ -1420,11 +1435,16 @@ section.blade.blog .tab-container .tab .abstract {
     font-size: 16px;
     padding-right: 35px
 }
+/*
 .who ul {
     padding: 0
 }
 .who li {
     padding: 18px 0
+}
+*/
+.who li {
+    list-style-type: disc;
 }
 @media only screen and (max-width: 1024px) {
     .blade.get-started .card-container {

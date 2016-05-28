@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lessons
+title: Education
 ---
 
 # What we offer?

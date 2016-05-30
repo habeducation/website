@@ -1,5 +1,6 @@
 {
     "options": { 
+        "timestamp_fixed":"Timestamp", 
         "altitude_m":"Altitude (meters)", 
         "altitude_ft":"Altitude (feet)", 
         "lat":"Latitude", 

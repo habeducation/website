@@ -3,31 +3,6 @@
   body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
   }
-  #line{
-    background: #eee;
-    width: 1300px;
-    margin: 20px;
-  }
-  #latlong{
-    width: 1300px;
-    background: #eee;
-    margin: 20px;
-  }
-  #pressure{
-    width: 1300px;
-    background: #eee;
-    margin: 20px;
-  }
-  #arbitrary {
-    width: 1300px;
-    background: #eee;
-    margin: 20px;
-  }
-  #arbitrary2 {
-    width: 1300px;
-    background: #eee;
-    margin: 20px;
-  }
 </style>
 <script src="{{base}}/js/hab.js"></script>
 <script src="{{base}}/js/jquery.js"></script>
@@ -55,8 +30,8 @@
 
 <script>
 $(function() {
-    setup_graph("#arbitrary", "#var1", "#var2", 1300, 600, "/data/balloon.json");
-    setup_graph("#arbitrary2", "#var1_2", "#var2_2", 1300, 600, "/data/balloon2.json");
+    setup_graph("#arbitrary", "#var1", "#var2", "/data/balloon.json");
+    setup_graph("#arbitrary2", "#var1_2", "#var2_2", "/data/balloon2.json");
     setup_version("#version");
 });
 

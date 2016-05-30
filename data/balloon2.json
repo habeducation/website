@@ -1,5 +1,6 @@
 {
     "options": {
+        "timestamp_fixed": "Timestamp",
         "ambient_temperature": "Ambient temperature",
         "humidity": "Humidity",
         "pressure": "Pressure",

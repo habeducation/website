@@ -7,7 +7,6 @@ Static site for hab.education - education with high altitude balloons
 Run these commands for site setup
 
     npm install
-    bower install
     jekyll serve
     gulp
 

@@ -1,9 +1,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-
-<meta property="og:description" content="{{page.excerpt}}">
-<meta name="description" content="{{page.excerpt}}">
+{% if page.id %}
+<meta property="og:description" content="{{page.excerpt | strip_html }}">
+<meta name="description" content="{{page.excerpt |  strip_html }}">
+{% else %}
+<meta property="og:description" content="{{post.excerpt | strip_html }}">
+<meta name="description" content="{{post.excerpt |  strip_html }}">
+{% endif %}
 
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 <link rel="shortcut icon" href="/static/img/icon.png">

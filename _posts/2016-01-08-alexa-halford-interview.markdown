@@ -5,6 +5,7 @@ date:   2016-01-08 08:42:59
 author: "Dustin Mayfield-Jones and Huan Truong"
 tags:	Interviews
 abstract: "Alexa Halford uses HABs to study space weather. In particular, she is interested in what happens when high energy particles emitted from the sun come into contact with earth’s magnetosphere, or the region of space dominated by earth’s magnetic field. Sometimes, these powerful particles lead to electronic anomalies or hardware damage, causing problems for satellites, radio communications, and devices on earth’s surface. Storms can even be unsafe for astronauts. The effects of a solar storm could have devastating results, yet the ability to accurately predict the magnitude of the storm is still a major challenge."
+thumb:  https://twitter.com/PlasmaNerd/profile_image?size=bigger
 ---
 
 # Interview with Alexa Halford: space physics

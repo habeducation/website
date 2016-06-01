@@ -1,9 +1,8 @@
 # HAB.education
 
-Education with high altitude balloons
+Static site for hab.education - education with high altitude balloons
 
 ## Build site
-
 
 Run these commands for site setup
 
@@ -11,3 +10,8 @@ Run these commands for site setup
     bower install
     jekyll serve
     gulp
+
+If you need to change either the css or the header_template file, then do
+
+    generate_header.sh
+

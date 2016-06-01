@@ -1,27 +1,29 @@
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
+<!-- Menu begins -->
+<header class="fixed">
+  <div class="wrap">
+    <div class="container">
+      <div class="clearfix">
+        <div class="right alt">
+            {% for link in site.data.navigation %}
+            {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+                {% else %}
+                {% assign domain = site.url %}
+            {% endif %}
+            <a class="tab" href="{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
+            {% endfor %}
+          
+            
+          </a>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="{{base}}/">HAB.EDUCATION</a></li>
-        <li><a href="{{base}}/pages/about.html">ABOUT</a></li>
-        <li><a href="{{base}}/pages/lessons.html">LESSONS</a></li>
-        <li><a href="{{base}}/pages/calendar.html">EVENTS</a></li>
-        <li><a href="http://ccgiscoop.maps.arcgis.com/apps/MapJournal/index.html?appid=91fe748015b24b23b883f5b66e3ded96">SPIKE IN SPACE</a></li>
-        <li><a href="{{base}}/pages/interviews.html">INTERVIEWS</a></li>
-      </ul>
+        </div>
+        <div class="left-nav">
+            <a href="/" class="tab header-title">
+              {{ site.title }}
+            </a>
+          </div>
+      </div>
     </div>
   </div>
-</nav>
-
-
+</header>
+<!-- Menu ends -->

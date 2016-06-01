@@ -1,0 +1,99 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.7em;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg.jpg") no-repeat center center scroll;
+    background-size: cover;
+}
+
+.header h1{
+    text-shadow: 1px 1px white;
+}
+
+.header h2 {
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+    background: #000;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+/* Footer */
+
+footer {
+    background: #000 url("../images/banner.svg") bottom center no-repeat;
+    padding: 100px 0;
+}
+
+
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.carousel-inner{
+    width: 100%;
+    max-height: 400px;
+}
+.item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 400px;
+}
+
+.item iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 400px;
+}
+
+.postcontent img {
+    display: block;
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

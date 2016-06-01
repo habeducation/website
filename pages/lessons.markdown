@@ -1,17 +1,7 @@
 ---
 layout: page
-title: Lessons
+title: Lessons and outcomes
 ---
-
-# What we offer?
-
-We are now working to provide free support and resources for educators to teach engaging, fun, and interactive lessons. We want to defeat the myths that teaching STEAM is expensive, extra, and advanced.
-
-- Our lessons are free, and many are free to implement. Joining us for our regular flights is free.
-- Our modular lessons can be taught with current standard curriculum. 
-- Our lessons are designed for the novice, requiring little to no initial experience.
-
-*If you have comments or inquiries about our lessons, please contact us at contact@HAB.education*
 
 # Lessons under development:
 
@@ -104,6 +94,3 @@ We are now working to provide free support and resources for educators to teach 
 ### Radio: basics (Engineering)(Physical Science)
 + Students will be able to explain basic properties of EM waves.
 + Students will be able to assign names and functions to a basic circuit diagram of a radio.
-
-# Join our educational team
-Like you, we are always searching for better ways to teach.

@@ -3,7 +3,7 @@ layout: post
 title:  "More D3 graphs!"
 date:   2016-04-28 08:23:00
 author: "Colin D"
-tags:   Learning
+tags:   Learning, DataScience
 abstract: "New flight data in d3"
 ---
 

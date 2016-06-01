@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ⚡>
+<head>
+
+    {% include head.html %}
+
+</head>
+{% include ga.html %}
+<body class="home">
+
+    {% include menu.html %}
+
+  <div class="wrap">
+  <div class="content">
+      {% assign limitposts = 100 %}
+      {% include posts.html %}
+  </div>
+  </div>
+
+{% include footer.html %}
+</body>
+
+</html>

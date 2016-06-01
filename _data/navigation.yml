@@ -1,0 +1,17 @@
+# Site navigation links
+
+- title: Education
+  url: /pages/education.html
+
+- title: Science
+  url: /pages/interviews.html
+
+- title: Data
+  url: /pages/data.html
+
+- title: Events
+  url: /pages/calendar.html
+
+- title: Contact
+  url: /pages/about.html
+

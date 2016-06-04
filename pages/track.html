@@ -19,19 +19,17 @@
 		<![endif]-->
 
 		<style type="text/css">
-			body {
-				padding-top: 50px;
-			}
 			.starter-template {
-				padding: 40px 15px;
+				padding: 5px;
 				text-align: center;
 			}
 			#map {
-				height: 600px;
+				height: 400px;
 			}
 		</style>
 	</head>
 	<body>
+	<!--
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
@@ -39,7 +37,7 @@
 				</div>
 			</div>
 		</nav>
-
+	-->
 		<div class="container">
 
 			<div class="starter-template">
@@ -52,7 +50,9 @@
 				<div id="map"></div>
 				<div id="latlon">Waiting for GPS events...</div>
 				<div id="battery"></div>
-				<div><a href="#" onclick="return sendRemoteCommand('gps','');">Force GPS Update</a> | <a href="#" onclick="return sendRemoteCommand('gpsreset','');">Force GPS Reset</a> | <a href="#" onclick="return sendRemoteCommand('batt','');">Force Battery Update</a> | <a href="#" onclick="return sendRemoteCommand('tmode','0');">Force Mute Location Update</a> | <a href="#" onclick="return sendRemoteCommand('tmode','1');">Force Location Update</a> | <a href="#" onclick="return sendRemoteCommand('gpsint','300');">Force 5 Minutes Update</a> | <a href="#" onclick="return sendRemoteCommand('gpsint','60');">Force 1 Minutes Update</a> | <a href="#" onclick="return sendRemoteCommand('gpsalt','0');">Remove GPS Max Alt.</a> | <a href="#" onclick="return sendRemoteCommand('gpsalt','4000');">Set GPS Max Alt. to 4000m</a></div>
+				<div>Force Update: <a href="#" onclick="return sendRemoteCommand('gps','');">GPS Location</a> | <a href="#" onclick="return sendRemoteCommand('batt','');">Battery</a> | <a href="#" onclick="return sendRemoteCommand('gpsreset','');">GPS Reset</a> Location Update: <a href="#" onclick="return sendRemoteCommand('tmode','0');">Mute</a> | <a href="#" onclick="return sendRemoteCommand('tmode','1');">Unmute</a><br />
+				Update Interval: <a href="#" onclick="return sendRemoteCommand('gpsint','1800');">30 Minutes</a> | <a href="#" onclick="return sendRemoteCommand('gpsint','300');">5 Minutes</a> | <a href="#" onclick="return sendRemoteCommand('gpsint','60');">1 Minute</a><br />
+				GPS Max Alt: <a href="#" onclick="return sendRemoteCommand('gpsalt','-1');">Remove Restriction</a> | <a href="#" onclick="return sendRemoteCommand('gpsalt','1000');">Set to 1000m</a> | <a href="#" onclick="return sendRemoteCommand('gpsalt','4000');">Set GPS to 4000m</a></div>
 			</div>
 
 		</div><!-- /.container -->
@@ -66,12 +66,13 @@
 		<script>
 			var map;
 			var remoteDevice;
+
 			function initMap() {
 				map = new google.maps.Map(document.getElementById('map'), {
-					center: {lat: -34.397, lng: 150.644},
+					center: {lat: 0, lng: 0},
 					zoom: 19,
 					tilt: 0,
-					mapTypeId: google.maps.MapTypeId.HYBRID
+					mapTypeId: google.maps.MapTypeId.ROADMAP
 				});
 			}
 
@@ -85,7 +86,9 @@
 				var deviceName;
 				var device;
 				var gpslocation;
+				var lastLocation;
 				var markersArray = [];
+				var polyLinesArray = [];
 
 				$('#spark-login').hide();
 				$('#deviceChooser').hide();
@@ -178,7 +181,7 @@
 
 								var mylocation=new google.maps.LatLng(lat, lon);
 
-								$('#latlon').html('<a href="http://maps.google.com/?ll=' + lat + '+' + lon +'&q=' + lat + '+' + lon +'&z=10">' + lat + ' :' + lon + " alt. " + alt + "</a> @ " + data.published_at);
+								$('#latlon').html('<a target="_blank" href="http://maps.google.com/?ll=' + lat + '+' + lon +'&q=' + lat + '+' + lon +'&z=10">' + lat + ' :' + lon + " alt. " + alt + "</a> @ " + data.published_at);
 								
 								// clearMarkers();
 
@@ -190,6 +193,24 @@
 								markersArray.push(marker);
 
 								marker.setMap(map);
+
+								if (!!lastLocation) {
+									var line = new google.maps.Polyline({
+									    path: [ 
+									        lastLocation, 
+									        mylocation
+									    ],
+									    strokeColor: "#FF0000",
+									    strokeOpacity: 1.0,
+									    strokeWeight: 10,
+									    map: map
+									});	
+
+									line.setMap(map);
+								}
+
+								lastLocation = mylocation;
+
 								map.panTo(marker.getPosition());
 							} else if (data.name == "B") {
 								$('#battery').html("Battery: " + data.data + "% @ " + data.published_at);

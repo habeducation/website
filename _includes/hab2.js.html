@@ -13,7 +13,8 @@
 </select>
 <select id="var2">
 </select>
-
+<label for="var3">Animate?</label>
+<input type="checkbox" id="var3" />
 
 <div id="arbitrary"></div>
 
@@ -23,6 +24,8 @@
 </select>
 <select id="var2_2">
 </select>
+<label for="var3_2">Animate?</label>
+<input type="checkbox" id="var3_2" />
 
 <div id="arbitrary2"></div>
 
@@ -30,8 +33,8 @@
 
 <script>
 $(function() {
-    setup_graph("#arbitrary", "#var1", "#var2", "/data/balloon.json");
-    setup_graph("#arbitrary2", "#var1_2", "#var2_2", "/data/balloon2.json");
+    setup_graph("#arbitrary", "#var1", "#var2", "#var3", "/data/balloon.json");
+    setup_graph("#arbitrary2", "#var1_2", "#var2_2", "#var3_2", "/data/balloon2.json");
     setup_version("#version");
 });
 

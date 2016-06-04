@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "no-undef": "error",
+    "no-trailing-spaces": "error"
+  },
+  "globals": {
+    "$": true,
+    "require": true,
+    "window": true,
+    "console": true
+  }
+}

@@ -3,7 +3,7 @@ layout: post
 title:  "Interview with Danny Bowman: atmospheric low frequency sound"
 date:   2015-12-30 08:43:59
 author: "Dustin Mayfield-Jones and Colin Diesh"
-tags:	Interviews
+tags:   Interviews
 abstract: "Not very long ago, Danny Bowman, was launching and testing his first balloons in the New Mexico desert. Now, he uses high altitude balloons to study sounds in the middle of the stratosphere. Little is known about what exactly those sounds mean, but he is hearing something similar to what was heard the last time someone listened in the ‘60s! His message to those new to HABs is about their wonder and accessibility. When talking about his first latex-based HAB, he says, “The [flight] was not genius. It was something anyone who put their mind to it could do. We went 1/3 of the way to space, and it is within reach!” If you keep tinkering with an idea, you can do really cool things. If you are tolerant of things going wrong, if you keep working forward, eventually you can send a balloon over 100,000 ft and get the pictures back to prove it."
 thumb:  https://twitter.com/dannycbowman/profile_image?size=bigger
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "Interview with Noelle Bryan: atomospheric microbiology"
 date:   2015-10-28 08:43:59
 author: "Dustin Mayfield-Jones and Huan Truong"
-tags:	Interviews
+tags:   Interviews
 abstract: "How far would you go to recover your payload? Would you take a chance in alligator infested waters? That is exactly what Noelle Bryan did while searching Lake Pontchartrain, Louisiana for her missing payload. In fact, HABs have taken her on several adventures during her quest to understand the microbiology of the stratosphere."
 thumb:  https://twitter.com/nbryan5/profile_image?size=bigger
 ---

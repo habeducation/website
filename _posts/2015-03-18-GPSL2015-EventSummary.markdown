@@ -3,7 +3,7 @@ layout: post
 title:  "Great Plains Super Launch 2015 conference notes"
 date:   2015-03-18 08:43:59
 author: Dustin Mayfield-Jones
-tags:	Launches
+tags:   Launches
 launch: GPSL2015
 ---
 

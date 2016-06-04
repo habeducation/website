@@ -3,7 +3,7 @@ layout: post
 title:  "Talking with the Stanford Space Initiative"
 date:   2015-11-05 08:43:59
 author: "Dustin Mayfield-Jones and Huan Truong"
-tags:	Interviews
+tags:   Interviews
 abstract: "Despite its youth, the Stanford Space Initiative is propelling aerospace technology and leadership.  It has quckily become the largest project-based group on campus and continues to set remarkable goals. Here, several SSI leaders share some of what they have learned"
 thumb:  https://twitter.com/StanfordSSI/profile_image?size=bigger
 ---

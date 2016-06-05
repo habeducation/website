@@ -26,6 +26,10 @@
 			#map {
 				height: 400px;
 			}
+			.gm-style * {
+			  width:auto;
+			  height:auto;
+			}
 		</style>
 	</head>
 	<body>
@@ -140,6 +144,7 @@
 							if (timestamp > lastUpdate) {
 								lastUpdate=timestamp;
 								lastMarker = marker;
+								$('#latlon').html('<a target="_blank" href="http://maps.google.com/?ll=' + lat + '+' + lon +'&q=' + lat + '+' + lon +'&z=10">' + lat + ' :' + lon + " alt. " + alt + "</a> @ " + new Date(timestamp).toLocaleTimeString());
 							}
 					  });
 					  if (!firstUpdate) {

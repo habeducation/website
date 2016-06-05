@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>HAB Cellular Tracker</title>
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<style type="text/css">
+			.starter-template {
+				padding: 5px;
+				text-align: center;
+			}
+			#map {
+				height: 400px;
+			}
+		</style>
+	</head>
+	<body>
+	<!--
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Asset Tracker Map</a>
+				</div>
+			</div>
+		</nav>
+	-->
+		<div class="container">
+
+			<div class="starter-template">
+				<div id="map"></div>
+				<div id="latlon">...</div>
+			</div>
+
+		</div><!-- /.container -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/simplestorage/0.2.0/simpleStorage.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/sparkjs/1/spark.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+		<script>
+			var map;
+			var remoteDevice;
+
+			function initMap() {
+				map = new google.maps.Map(document.getElementById('map'), {
+					center: {lat: 0, lng: 0},
+					zoom: 19,
+					tilt: 0,
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				});
+			}
+
+			$(function(){
+				var markersArray = [];
+				var polyLinesArray = [];
+				var lastLocation;
+				var lastUpdate = new Date().getTime() -  5 * 60 * 60 * 1000;
+				var lastMarker;
+				var firstUpdate;
+
+				function clearMarkers() {
+					for (var i = 0; i < markersArray.length; i++ ) {
+						markersArray[i].setMap(null);
+					}
+					markersArray.length = 0;
+				}
+
+				function go() {
+					$('#map').show();
+					getUpdates();
+					setInterval(function(){ getUpdates(); }, 60*1000);
+				}
+
+				function getUpdates() {
+					console.log("Getting updates since " + lastUpdate);
+					$.getJSON( "http://secure.tnhh.net:3000/since/?time=" + lastUpdate, function( data ) {
+					  $.each( data, function( key, val ) {
+					    //items.push( "<li id='" + key + "'>" + val + "</li>" );
+					    //console.log(val);
+					    if (val.event == "G") {
+
+							var gpslocation = val.data.split(',');
+							var lat = parseFloat(gpslocation[0]);
+							var lon = parseFloat(gpslocation[1]);
+							var alt = parseFloat(gpslocation[2]);
+							var timestamp = Date.parse(val.published_at);
+
+							if (lat == 0.0 || lon == 0.0 || alt == 0.0) {
+								return;
+							}
+
+
+						    mylocation = new google.maps.LatLng(lat, lon);
+
+							marker = new google.maps.Marker({
+										position: mylocation,
+										draggable: false,
+										title: 'Alt = ' + alt + ' at ' + new Date(timestamp).toLocaleTimeString(),
+									});
+
+									markersArray.push(marker);
+
+									marker.setMap(map);
+						    };
+
+
+							if (!!lastLocation) {
+								var line = new google.maps.Polyline({
+								    path: [ 
+								        lastLocation, 
+								        mylocation
+								    ],
+								    strokeColor: "#FF0000",
+								    strokeOpacity: 1.0,
+								    strokeWeight: 10,
+								    map: map
+								});	
+
+								line.setMap(map);
+							}
+
+							lastLocation = mylocation;
+
+							if (timestamp > lastUpdate) {
+								lastUpdate=timestamp;
+								lastMarker = marker;
+							}
+					  });
+					  if (!firstUpdate) {
+					  	firstUpdate = 1;
+					  	if (lastMarker) {
+						  	map.panTo(lastMarker.getPosition());
+					  	}
+					  }
+					});
+				}
+
+				go();
+
+			});
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAggs3bZTNCg9gj4358y3I4jPATf6drSwM&callback=initMap" async defer></script>
+
+	</body>
+</html>

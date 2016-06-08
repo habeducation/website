@@ -1,6 +1,6 @@
 # Version 0.4
 
-- Use vega-embed to allow streaming data/animation with vega-lite
+- Use streaming data/animation with vega-lite
 
 # Version 0.3
 

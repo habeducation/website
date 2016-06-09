@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Even more D3!"
+date:   2016-04-28 08:23:00
+author: "Colin D"
+tags:   Learning, DataScience
+abstract: "Even more d3"
+---
+
+
+# Comparison of balloons HAB_0 and HAB_2
+
+
+We compared the results of HAB_0 and HAB_2 data, here is a sample!
+
+
+{% include hab3.js.html %}

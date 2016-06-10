@@ -16,5 +16,7 @@
         "altitude_m": "Altitude (m)"
     },
     "file": "/data/balloon2.csv",
+    "def1": "timestamp_fixed",
+    "def2": "altitude_ft",
     "timefield": "timestamp_fixed"
 }

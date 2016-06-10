@@ -18,12 +18,12 @@ $(function() {
     var x = { field: 'timestamp_fixed', type: 'quantitative' };
     var y = { field: 'altitude_ft', type: 'quantitative', scale: { zero: false } };
     var c = { field: 'cat', type: 'ordinal' };
-    plot_graph('#arbitrary', '/data/balloon3.csv', x, y, c);
+    plotGraph('#arbitrary', '/data/balloon3.csv', x, y, c);
 
     var x = { field: 'lat', type: 'quantitative', scale: { zero: false } };
     var y = { field: 'lng', type: 'quantitative', scale: { zero: false } };
     var c = { field: 'cat', type: 'ordinal' };
-    plot_graph('#arbitrary2', '/data/balloon3.csv', x, y, c);
-    setup_version("#version");
+    plotGraph('#arbitrary2', '/data/balloon3.csv', x, y, c);
+    setupVersion("#version");
 });
 </script>

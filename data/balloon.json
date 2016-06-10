@@ -16,5 +16,7 @@
         "oxid_gas":"Oxid. gas" 
     },
     "file": "/data/balloon.csv",
-    "timefield": "timestamp_fixed"
+    "timefield": "timestamp_fixed",
+    "def1": "timestamp_fixed",
+    "def2": "altitude_ft"
 }

@@ -1,11 +1,9 @@
 {
+  "extends": "airbnb",
   "rules": {
-    "no-undef": "error",
-    "no-trailing-spaces": "error",
-    "comma-dangle": "error",
-    "indent": ["error", 4],
-    "comma-spacing": ["error", { "before": false, "after": true }],
-    "space-in-parens": ["error", "never", { "exceptions": ["{}"] }]
+    "no-var": 0,
+    "object-shorthand": 0,
+    "indent": ["error", 4]
   },
   "globals": {
     "$": true,

@@ -3,6 +3,7 @@ _site
 bower_components
 node_modules
 *.swp
+css/master.min.css
 
 # OS X junks
 *.DS_Store

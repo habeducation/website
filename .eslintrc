@@ -1,7 +1,9 @@
 {
+  "extends": "airbnb",
   "rules": {
-    "no-undef": "error",
-    "no-trailing-spaces": "error"
+    "no-var": 0,
+    "object-shorthand": 0,
+    "indent": ["error", 4]
   },
   "globals": {
     "$": true,

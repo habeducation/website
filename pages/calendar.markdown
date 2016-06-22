@@ -38,25 +38,24 @@ title: Events Calendar
 Participants were encouraged to stop by the [Julia Davis branch](http://www.slpl.org/slpl/library/article240098545.asp) ([Map](https://goo.gl/maps/Z6UEP3J4PmR2)) between **3-5pm** to
 - Find out what happened during the Library Launch from that morning.
 - Discover how high altitude balloons are used in STEM education.
-- Simulate your own flight with prediction software.
-- Practice using radio direction finding to track your balloon.
+- Simulate their own flight with prediction software.
+- Practice using radio direction finding to track their balloon.
 - Make a temperature humidity sensor with the raspberry pi zero.
-- Analyze data to discover today's atmosphere: clouds, temperature, ozone layers.
+- Analyze data to discover that morning's  atmosphere: clouds, temperature, ozone layers.
 - Preview our next generation video system for live, high-def video from balloon to ground.
-- Learn how your school can join other Saint Louis region educators to get involved in the HAB community!
+- Learn how their school can join other Saint Louis region educators to get involved in the HAB community!
 
-This event is open and free to the public.
+This event was open and free to the public.
 
 #### Morning Library Launch!
 
 - Location: Damiansville, IL
-- We will test our [Slow-scan TV](https://en.wikipedia.org/wiki/Slow-scan_television) that sends live image from ballons aloft. 
-- We will test our SPOT tracker and 3G tracker in separate payloads for back-up location tracking technology.
+- We will tested our [Slow-scan TV](https://en.wikipedia.org/wiki/Slow-scan_television) that sends live image from ballons aloft. 
 
 #### Morning Saint Louis Space Frontiers Inaugural Launch!
 
-- Saint Louis Space Frontiers will send their first payload into space.
-- The payload will feature a Trackuino tracker as well as bundled sensors and a Raspberry Pi to capture images.
+- Saint Louis Space Frontiers sent their first payload into space.
+- The payload featured a Trackuino tracker as well as bundled sensors and a Raspberry Pi to capture images.
 
 - Dayton Hamvention : May 20-22, 2016 
 - YMCA Science Gone Mad Student Launch : April 16, 2016

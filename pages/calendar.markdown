@@ -7,27 +7,35 @@ title: Events Calendar
 
 ### August 2016 (Date TBD)
 
-#### **Saint Louis Regional Educators Workshop**
+#### Saint Louis Regional Educators Summit
 
-- We will update more information as details emerge.
 
+- We are inviting educators from the Saint Louis region that are currently using HABs in their classrooms to join us for our first summit!
+ 
+
+### September 2016 (Date TBD)
+
+#### Lab Revolution Launch (Farmington, Missouri)
+
+
+- We will update more information as details emerge for this launch with [Lab Revolution](labrevo.org)
 
 
 # Past events
 
 ### June 16-19, 2016
 
-#### **Great Plains Super Launch (Pecan Plantation, Granbury, Texas)**
+#### Great Plains Super Launch (Pecan Plantation, Granbury, Texas)
 
-- HAB.education will participate in the Super launch with other teams in the GPSL.
-- We will update more information as details emerge.
+
+- HAB.education participated in the Super Launch with other teams in the GPSL.
 - For more information, visit the [Great Plains Super Launch website](http://superlaunch.org/)
 
 ### June 4, 2016
 
-#### 3-5pm **Library Launch at Saint Louis Public Library (Julia Davis Branch)**
+#### 3-5pm Library Launch at Saint Louis Public Library (Julia Davis Branch)
 
-Stop by the [Julia Davis branch](http://www.slpl.org/slpl/library/article240098545.asp) ([Map](https://goo.gl/maps/Z6UEP3J4PmR2)) between **3-5pm** to
+Participants were encouraged to stop by the [Julia Davis branch](http://www.slpl.org/slpl/library/article240098545.asp) ([Map](https://goo.gl/maps/Z6UEP3J4PmR2)) between **3-5pm** to
 - Find out what happened during the Library Launch from that morning.
 - Discover how high altitude balloons are used in STEM education.
 - Simulate your own flight with prediction software.
@@ -39,13 +47,13 @@ Stop by the [Julia Davis branch](http://www.slpl.org/slpl/library/article2400985
 
 This event is open and free to the public.
 
-#### Morning **Library Launch!**
+#### Morning Library Launch!
 
 - Location: Damiansville, IL
 - We will test our [Slow-scan TV](https://en.wikipedia.org/wiki/Slow-scan_television) that sends live image from ballons aloft. 
 - We will test our SPOT tracker and 3G tracker in separate payloads for back-up location tracking technology.
 
-#### Morning **Saint Louis Space Frontiers Inaugural Launch!**
+#### Morning Saint Louis Space Frontiers Inaugural Launch!
 
 - Saint Louis Space Frontiers will send their first payload into space.
 - The payload will feature a Trackuino tracker as well as bundled sensors and a Raspberry Pi to capture images.

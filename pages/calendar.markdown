@@ -10,7 +10,7 @@ title: Events Calendar
 #### Saint Louis Regional Educators Summit
 
 
-- We are inviting educators currently using HABs in their classrooms to join us for the regions first HAB educator summit!
+- We are inviting educators currently using HABs in their classrooms to join us for the region's first HAB educator summit!
  
 
 ### September 2016 (Date TBD)

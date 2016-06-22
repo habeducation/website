@@ -10,7 +10,3 @@ Run these commands for site setup
     jekyll serve
     gulp
 
-If you need to change either the css or the header_template file, then do
-
-    generate_header.sh
-

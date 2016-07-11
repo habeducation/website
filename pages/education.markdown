@@ -29,12 +29,10 @@ We are now working to provide free support and resources for educators to teach 
 
 ### What do I need to know about safety and regulations?
 Learn more about US FAA rules for [Part 101](http://www.ecfr.gov/cgi-bin/text-idx?rgn=div5&node=14:2.0.1.3.15) that includes HABs. 
-<!--
+
 
 ### Where can I find teaching materials?
 + We are compiling a list of resources that you can use and will publish it on our website as soon as we finish. Check back later for more details.
-
--->
 
 # Join our educational team
 Like you, we are always searching for better ways to teach.

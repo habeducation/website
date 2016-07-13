@@ -15,14 +15,14 @@ Flight path of flight1 vs flight2
 
 <script>
 $(function() {
-    var x = { field: 'timestamp_fixed', type: 'quantitative' };
+    var x = { field: 'timestamp_offset', type: 'quantitative', scale: { zero: true } };
     var y = { field: 'altitude_ft', type: 'quantitative', scale: { zero: false } };
-    var c = { field: 'cat', type: 'ordinal' };
+    var c = { field: 'cat', type: 'nominal' };
     plotGraph('#arbitrary', '/data/balloon4.csv', x, y, c);
 
     var x = { field: 'lat', type: 'quantitative', scale: { zero: false } };
     var y = { field: 'lng', type: 'quantitative', scale: { zero: false } };
-    var c = { field: 'cat', type: 'ordinal' };
+    var c = { field: 'cat', type: 'nominal' };
     plotGraph('#arbitrary2', '/data/balloon4.csv', x, y, c);
     setupVersion("#version");
 });

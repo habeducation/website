@@ -8,7 +8,7 @@ var hab = {
     version: 0.4,
 };
 
-function plotGraph(id, csvfile, x, y, c, animate) {
+function plotGraph(id, csvfile, x, y, c, animate, width, height) {
     d3.csv(csvfile, (csvdata) => {
         var datasofar = animate ? csvdata.slice(0, 1) : csvdata;
         var spec = {
@@ -24,22 +24,19 @@ function plotGraph(id, csvfile, x, y, c, animate) {
             },
             config: {
                 cell: {
-                    width: 1000,
-                    height: 600,
+                    width: 700,
+                    height: 400,
                 },
             },
         };
+        console.log(spec.encoding);
 
-        if (spec.encoding.x.field !== 'timestamp_fixed') {
-            spec.encoding.x.scale.domain = d3.extent(csvdata, (d) => {
-                return spec.encoding.x.field === 'timestamp_fixed' ? d[spec.encoding.x.field] : +d[spec.encoding.x.field];
-            });
-        }
-        if (spec.encoding.y.field !== 'timestamp_fixed') {
-            spec.encoding.y.scale.domain = d3.extent(csvdata, (d) => {
-                return spec.encoding.y.field === 'timestamp_fixed' ? d[spec.encoding.y.field] : +d[spec.encoding.y.field];
-            });
-        }
+        spec.encoding.x.scale.domain = d3.extent(csvdata, (d) => {
+            return +d[spec.encoding.x.field];
+        });
+        spec.encoding.y.scale.domain = d3.extent(csvdata, (d) => {
+            return +d[spec.encoding.y.field];
+        });
 
         function updategraph(view, data, i) {
             view.data('source').insert(data.slice(i, i + 1));
@@ -80,9 +77,8 @@ function setupGraph(id, var1, var2, var3, jsonfile) {
         function plot() {
             var kvar1 = $(var1).val();
             var kvar2 = $(var2).val();
-            var x1 = { field: response.timefield, type: 'temporal', timeUnit: 'hoursminutesseconds' };
-            var xaxis = kvar1 === response.timefield ? x1 : { field: kvar1, type: 'quantitative', scale: { zero: false } };
-            var yaxis = kvar2 === response.timefield ? x1 : { field: kvar2, type: 'quantitative', scale: { zero: false } };
+            var xaxis = { field: kvar1, type: 'quantitative', scale: { zero: false } };
+            var yaxis = { field: kvar2, type: 'quantitative', scale: { zero: false } };
 
             $(id).empty();
             plotGraph(id, response.file, xaxis, yaxis, null, $(var3).is(':checked'));
